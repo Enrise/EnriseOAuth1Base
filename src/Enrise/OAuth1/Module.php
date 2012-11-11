@@ -8,18 +8,13 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace  Enrise\OAuth1Base;
+namespace  Enrise\OAuth1;
 
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 
 class Module
 {
-    public function onBootstrap(MvcEvent $e)
-    {
-
-
-    }
 
     public function getAutoloaderConfig()
     {

@@ -8,13 +8,9 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace EnriseOAuth1Base;
+namespace  Enrise\OAuth1\SignatureMethod;
 
-require_once __DIR__ . '/src/Enrise/OAuth1/Module.php';
-
-use Enrise\Oauth1\Module as EnriseOAuth1Base;
-
-class Module extends EnriseOAuth1Base
+class RsacSha1 extends AbstractSignatureMethod
 {
 
 }
